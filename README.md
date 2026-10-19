@@ -26,7 +26,7 @@ Este proyecto analiza las series históricas de precios de tres materias primas 
 
 ## Arquitectura Cloud (AWS)
 *(Nota: Recuerda subir tu diagrama de arquitectura a la raíz de tu repositorio en GitHub para que se muestre aquí)*
-`![Diagrama de Arquitectura](arquitectura_aws.png)`
+`![Diagrama de Arquitectura](arquitectura_aws.drawio.png)`
 
 *Flujo:* 
 1. **Ingesta:** Lambda recolecta datos y los guarda en S3.
