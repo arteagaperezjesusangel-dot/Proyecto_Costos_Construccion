@@ -10,7 +10,7 @@ Este proyecto analiza las series históricas de precios de tres materias primas 
 
 ## Metodología y Tecnologías
 1. **Limpieza y EDA:** Python, Pandas. Se unificaron formatos de fechas y se verificó la consistencia de los datos (3530 registros).
-2. **Análisis de Relación:** Prueba de correlación y Regresión Lineal (Statsmodels). Se descartó la materia prima X por bajo R² individual (0.28) y multicolinealidad.
+2. **Análisis de Relación:** Prueba de correlación y Regresión Lineal (Statsmodels). Se descartó la materia prima X por bajo R² individual (0.28).
 3. **Modelado y Proyección:** Prophet (Meta) para proyectar Y y Z con intervalos de confianza al 95%. Se justificó un horizonte de 6 meses por el ciclo presupuestal inicial del proyecto.
 4. **Agente de IA:** Interfaz en Gradio con lógica de agente (memoria, herramientas de predicción histórica/futura y conocimiento externo).
 5. **Arquitectura Cloud:** Diseño en AWS con servicios Serverless.
