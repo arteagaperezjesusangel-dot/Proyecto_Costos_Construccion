@@ -4,7 +4,7 @@
 Este proyecto analiza las series históricas de precios de tres materias primas (X, Y, Z) para predecir el costo futuro de dos equipos críticos (Equipo1 y Equipo2) en un proyecto de construcción. Se descubrió que la materia prima X era ruido, mientras que el Equipo1 depende en un 82% de la materia prima Y (R² = 0.99), y el Equipo2 depende en un 45% de la materia prima Z (R² = 0.96). Se implementó un modelo de series temporales con Prophet para proyectar los costos a 6 meses con intervalos de confianza, y se construyó un Agente de IA conversacional para interactuar con los resultados.
 
 ## Estructura del Proyecto
-- **`/datos`**: Archivos CSV originales proporcionados para la prueba (`X.csv`, `Y.csv`, `Z.csv`, `historico_equipos.csv`).
+- [**`/datos`**](./datos): Archivos CSV originales proporcionados para la prueba (`X.csv`, `Y.csv`, `Z.csv`, `historico_equipos.csv`).
 - **`/codigo`**: Notebook `01_Proyecto_Completo.ipynb` con todo el pipeline (limpieza, análisis, Prophet y Agente de IA).
 - **`/imagenes`**: Diagrama de arquitectura AWS y gráficas de resultados.
 
