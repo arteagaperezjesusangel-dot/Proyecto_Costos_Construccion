@@ -40,6 +40,6 @@ El modelo Prophet descompone las series de tiempo para identificar patrones. Se 
 4. **Exposición:** El usuario interactúa vía API Gateway, que conecta con el Agente en Fargate. El Agente consulta las predicciones en SageMaker y el contexto en Bedrock.
 
 ## Cómo ejecutar el código
-1. Abrir el notebook `01_Proyecto_Completo.ipynb` (ubicado en la carpeta `/codigo`) en Google Colab.
+1. Abrir el notebook `01_Proyecto_Completo.ipynb` (ubicado en la carpeta [`/codigo`](./codigo) en Google Colab.
 2. Ejecutar todas las celdas en orden.
 3. El código instalará las dependencias, limpiará los datos, entrenará Prophet y desplegará el Agente en Gradio.
