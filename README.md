@@ -5,8 +5,8 @@ Este proyecto analiza las series históricas de precios de tres materias primas 
 
 ## Estructura del Proyecto
 - [**`/datos`**](./datos): Archivos CSV originales proporcionados para la prueba (`X.csv`, `Y.csv`, `Z.csv`, `historico_equipos.csv`).
-- **`/codigo`**: Notebook `01_Proyecto_Completo.ipynb` con todo el pipeline (limpieza, análisis, Prophet y Agente de IA).
-- **`/imagenes`**: Diagrama de arquitectura AWS y gráficas de resultados.
+- [**`/codigo`**](./codigo): Notebook `01_Proyecto_Completo.ipynb` con todo el pipeline (limpieza, análisis, Prophet y Agente de IA).
+- [**`/imagenes`**](./imagenes): Diagrama de arquitectura AWS y gráficas de resultados.
 
 ## Metodología y Tecnologías
 1. **Limpieza y EDA:** Python, Pandas. Se unificaron formatos de fechas y se verificó la consistencia de los datos (3530 registros).
