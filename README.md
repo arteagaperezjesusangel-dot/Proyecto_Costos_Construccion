@@ -28,7 +28,7 @@ El modelo Prophet descompone las series de tiempo para identificar patrones. Se 
 
 ## Diferencia entre IA Convencional y Agente de IA
 - **IA Convencional (Prophet):** Sistema pasivo que recibe datos históricos y genera una predicción numérica. No interactúa ni decide.
-- **Agente de IA (Chatbot):** Sistema autónomo que **percibe** la pregunta del usuario, **decide** qué herramienta usar (predecir el futuro, consultar el pasado, leer noticias o recordar la conversación), **ejecuta** la acción y mantiene **memoria** para dar una respuesta integral.
+- **Agente de IA (Chatbot):** Sistema autónomo que percibe la pregunta del usuario, decide qué herramienta usar (predecir el futuro, consultar el pasado, leer noticias o recordar la conversación), ejecuta la acción y mantiene memoria para dar una respuesta integral.
 
 ## Arquitectura Cloud (AWS)
 ![Diagrama de Arquitectura](imagenes/arquitectura_aws.png)
@@ -40,6 +40,6 @@ El modelo Prophet descompone las series de tiempo para identificar patrones. Se 
 4. **Exposición:** El usuario interactúa vía API Gateway, que conecta con el Agente en Fargate. El Agente consulta las predicciones en SageMaker y el contexto en Bedrock.
 
 ## Cómo ejecutar el código
-1. Abrir el notebook `01_Proyecto_Completo.ipynb` (ubicado en la carpeta [`/codigo`](./codigo) en Google Colab.
+1. Abrir el notebook [`01_Proyecto_Completo.ipynb`](https://colab.research.google.com/drive/1xOuRoFOdRELLjWo-pUUqlLiHfyCgEOkI?usp=sharing) (ubicado en la carpeta [`/codigo`](./codigo) en Google Colab.
 2. Ejecutar todas las celdas en orden.
 3. El código instalará las dependencias, limpiará los datos, entrenará Prophet y desplegará el Agente en Gradio.
